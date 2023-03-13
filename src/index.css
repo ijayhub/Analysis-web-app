@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navs{
+  @apply flex justify-around items-center bg-black text-white p-5
+}
+.modal-background{
+  background-color: rgba(0.1, 0, 0.4, 0.5);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  @apply flex flex-col justify-between items-center h-screen w-screen fixed px-20 pt-20;
+  
+  
+}
+.coro{
+  background-image: url('/src/img/coronavirus.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  @apply h-64 flex items-center justify-center rounded-lg shadow-2xl 
+}
+
+.sleep{
+  background-image: url('/src/img/sleep.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  @apply h-64 flex items-end justify-center ml-8 rounded-lg shadow-2xl
+}
+.blog-title{
+  @apply font-extrabold text-center pt-7 text-blue-900 lg:text-lg
+}
