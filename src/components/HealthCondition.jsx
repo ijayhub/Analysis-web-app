@@ -7,7 +7,7 @@ const HealthCondition = () => {
   return (
 		<div className='mt-12' id='HealthCondition'>
 			<div>
-				<h2 className='py-4 lg:text-lg font-extrabold text-blue-900'>
+				<h2 className='p-4 lg:text-lg font-extrabold text-blue-900'>
 					Health Conditions
 				</h2>
 			</div>
@@ -19,7 +19,7 @@ const HealthCondition = () => {
 							<img
 								src={health.img}
 								alt={health.title}
-								className='h-44 w-4/5 rounded-3xl shadow-lg'
+								className='lg:h-44 lg:w-4/5 rounded-3xl shadow-lg'
 							/>
 						</NavLink>
 						<h3 className='font-extrabold mt-4 text-blue-900'>

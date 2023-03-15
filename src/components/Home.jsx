@@ -6,6 +6,7 @@ import Cards from './Cards';
 import Blogs from './Blogs';
 import HealthCondition from './HealthCondition';
 import Footer from './Footer';
+import { BsFillArrowUpSquareFill } from 'react-icons/bs';
 
 const Home = () => {
 	return (
@@ -15,9 +16,14 @@ const Home = () => {
 			<div className='max-w-7xl mx-auto pt-16'>
 				<Cards />
 				<Blogs />
-				<HealthCondition/>
+				<HealthCondition />
 			</div>
-			<Footer/>
+			<a href='#'>
+				<div className='flex justify-end items-end mr-8'>
+					<BsFillArrowUpSquareFill className='text-blue-900 text-2xl lg:text-3xl' />
+				</div>
+			</a>
+			<Footer />
 		</div>
 	);
 };

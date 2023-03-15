@@ -9,21 +9,38 @@
 .navs{
   @apply flex justify-around items-center bg-black text-white p-5
 }
+.nav-container{
+  @apply container flex flex-wrap items-center justify-around mx-auto;
+}
+.nav-heading{
+  @apply self-center lg:text-3xl font-semibold whitespace-nowrap dark:text-white
+}
+.nav-open{
+  @apply inline-flex items-center p-3 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600
+
+}
+.nav-listContainer {
+  @apply flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700
+}
 .modal-background{
   background-color: rgba(0.1, 0, 0.4, 0.5);
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  @apply flex flex-col justify-between items-center h-screen w-screen fixed px-20 pt-20;
-  
-  
+  @apply flex flex-col justify-between items-center h-screen w-screen fixed top-0 px-20 pt-20;
+}
+.modal-heading{
+  @apply text-2xl font-extrabold text-blue-900 pb-4
+}
+.modalContent-container{
+  @apply lg:flex items-center justify-center place-content-center shadow-2xl 
 }
 .coro{
   background-image: url('/src/img/coronavirus.jpg');
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  @apply h-64 flex items-center justify-center rounded-lg shadow-2xl 
+  @apply h-64 flex items-center justify-center rounded-lg shadow-2xl mb-2
 }
 
 .sleep{
@@ -31,8 +48,9 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  @apply h-64 flex items-end justify-center ml-8 rounded-lg shadow-2xl
+  @apply h-64  flex items-end justify-center  rounded-lg shadow-2xl mb-2
 }
 .blog-title{
   @apply font-extrabold text-center pt-7 text-blue-900 lg:text-lg
 }
+
