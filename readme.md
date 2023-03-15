@@ -2,7 +2,7 @@
 <div align="center">
     <img src="">
 </div>
-<h1  align="center" > Analysis-Web-App</h1>
+<h1  align="center" > Reports-Web-App</h1>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -23,7 +23,7 @@
 
 ## About The Project
 
-Analysis web app is an give the repot of analyis of covid-19 from other countires.
+Report web app is gives the repot of covid-19 from other countires.
 
 **Features**
 
@@ -36,10 +36,10 @@ Analysis web app is an give the repot of analyis of covid-19 from other countire
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/Report-web-app)
 
-* [Hosted Link]()
 
+* [Hosted Link](https://reports-web.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
