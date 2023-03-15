@@ -36,7 +36,7 @@
   @apply lg:flex items-center justify-center place-content-center shadow-2xl 
 }
 .coro{
-  background-image: url('/src/img/coronavirus.jpg');
+  background-image: url('/img/coronavirus.jpg');
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
 }
 
 .sleep{
-  background-image: url('/src/img/sleep.jpg');
+  background-image: url('/img/sleep.jpg');
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;

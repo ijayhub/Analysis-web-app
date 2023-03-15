@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import contactimg from '../img/contactimg.svg'
+import contactimg from '/img/contactimg.svg'
 
 const Modal = ({ closeModal }) => {
 return (

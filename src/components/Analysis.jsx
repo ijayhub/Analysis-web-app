@@ -9,21 +9,25 @@ const Analysis = () => {
 	const [loadings, setLoadings] = useState(true)
 	
 	useEffect(() => {
-		fetch("https://api.covid19api.com/summary")
-			.then((res) => {
-			return res.json()
-			})
-			.then((data) => {
-				// console.log(data.Countries)
-				setReports(data.Countries)
-				setLoadings(!true)
-			})
-			.catch((err) => {
-				console.log(err)
-				setError(err.message)
-				setLoadings(!true);
-		})
-	},[])
+		setTimeout(() => {
+			fetch('https://api.covid19api.com/summary')
+				.then((res) => {
+					return res.json();
+				})
+				.then((data) => {
+					// console.log(data.Countries)
+					setReports(data.Countries);
+					setLoadings(!true);
+				})
+				.catch((err) => {
+					console.log(err);
+					setError(err.message);
+					setLoadings(!true);
+				});
+		}, []);
+			
+		}, 2000);
+		
 
     return (
 			<>

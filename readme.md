@@ -30,7 +30,7 @@ Report web app is gives the repot of covid-19 from other countires.
 
 ```
 
-1. Ability to Navigate to tne analysis page.
+1. Ability to Navigate to tne report page.
 
 ```
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import cover from '../img/coverhealth.jpg';
+import cover from '/img/coverhealth.jpg';
 import Analysis from './Analysis';
 import Cards from './Cards';
 import Blogs from './Blogs';
