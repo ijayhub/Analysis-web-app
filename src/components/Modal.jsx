@@ -32,7 +32,7 @@ return (
 				<div className='bg-blue-100 mx-4 p-3 rounded-lg '>
 					<img src={contactimg} alt={contactimg} className='w-54 h-32' />
 					<h3 className='text-center'>
-						Welecome sucbribe to our newletter
+						Welecome subcribe to our newletter
 					</h3>{' '}
 					<br />
 					<p className='text-center'>OR</p>

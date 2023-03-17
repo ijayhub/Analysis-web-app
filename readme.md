@@ -1,6 +1,6 @@
 <div id="top"></div>
 <div align="center">
-    <img src="">
+    <img src="./public/img/reportpic.png">
 </div>
 <h1  align="center" > Reports-Web-App</h1>
 <!-- TABLE OF CONTENTS -->
