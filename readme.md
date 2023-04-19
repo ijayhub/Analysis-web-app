@@ -22,8 +22,7 @@
 
 
 ## About The Project
-
-Report web app is gives the repot of covid-19 from other countires.
+The web application generates reports on COVID-19 from various countries.
 
 **Features**
 
